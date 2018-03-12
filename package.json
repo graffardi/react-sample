@@ -1,0 +1,40 @@
+{
+  "name": "react-sample",
+  "version": "1.0.0",
+  "description": "react-sample is a quick start React application, containing examples of different types of components.",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graffardi/react-sample.git"
+  },
+  "keywords": [
+    "react",
+    "sample"
+  ],
+  "author": "Victor Graffard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graffardi/react-sample/issues"
+  },
+  "homepage": "https://github.com/graffardi/react-sample#readme",
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
