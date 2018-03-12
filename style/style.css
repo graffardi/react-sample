@@ -1,0 +1,20 @@
+.app-container {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #9c9b9b;
+}
+
+.functional-component-container {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e9801e;
+}
+
+.class-component-container {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000000;
+}

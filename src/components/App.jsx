@@ -1,18 +1,35 @@
 import React, { Component } from 'react';
+import FunctionalComponent from './FunctionalComponent';
+import ClassComponent from './ClassComponent';
 
 class App extends Component {
     constructor (props) {
         super(props);
 
         this.state = {
-            // Some stuff here
+            item: '',
+            items: []
         };
+    }
+
+    addItem () {
+        if (!this.state.item) {
+            console.log('No item value.');
+        } else {
+            this.setState(() => {
+                items: this.state.items.push(this.state.item);
+            });
+        }
     }
 
     render () {
         return (
-        <div className="col-md-12">
-            Call the other components from here.
+        <div className="app-container">
+            <input value={this.state.item} onChange={(e) => this.setState({ item: e.target.value })} />
+            <button onClick={() => this.addItem()} >Submit item</button>
+
+            <FunctionalComponent />
+            <ClassComponent />
         </div>
         );
     }
