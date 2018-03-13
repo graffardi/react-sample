@@ -18,7 +18,6 @@ npm start
 - eslint
 - react
 - react-dom
-- react-redux
 - webpack
 - webpack-cli
 - webpack-dev-server
