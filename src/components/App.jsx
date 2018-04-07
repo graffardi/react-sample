@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import FunctionalComponent from './FunctionalComponent';
 import ClassComponent from './ClassComponent';
+import '../../style/style.css';
+
 
 class App extends Component {
     constructor (props) {
