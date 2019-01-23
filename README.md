@@ -1,6 +1,5 @@
 # react-sample
-react-sample is a quick start React application, containing examples of different types of components.
-It also uses some of the ES6 syntax.
+react-sample is a quick start React application.
 
 I use this repository as a reminder of some ReactJS rules, and I am keeping it as an alternative skeleton to create-react-app.
 
